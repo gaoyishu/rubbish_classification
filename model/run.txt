@@ -1,0 +1,4 @@
+1. cd C:\Users\Administrator\Desktop\garbage
+2. activate py35
+3. python resnet50_train.py
+3. python resnet50_predict.py resnet50_best.h5 pen.jpg

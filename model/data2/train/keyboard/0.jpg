@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html>
+<head><meta charset='UTF-8'>
+<title>California Connects</title><link rel="stylesheet" href="container2.css"/>
+
+<script type="text/javascript" src="container2.js"></script></head>
+
+
+
+<body>
+
+
+
+<table border="0" class="outer" cellspacing="0">
+
+
+<tr>
+<td colspan="2">
+	<!--Header Bar at the top of the page with the logo and the login and language links-->
+	<table border="0" cellspacing="0" class="logotable">
+	<tr>
+	<td id="logoleft" class="logoleft">&nbsp;</td>
+	<td class="logomid">&nbsp;</td>
+	<td class="logoright">
+		<!--Content for right side of header logo goes here-->
+		<div class="lang">
+			<form method="get">
+			<select name="req_lang" onchange="this.form.submit()">
+			<option value="">Language</option>
+			<option value="en">English</option>
+			<option value="es">Spanish</option>
+			</select>
+			</form>
+		</div>
+
+		<div  class="logindiv">
+		<span id='loginmessage'>You are not logged in. </span><a href='container2.php?redir=login%2Findex.php' id='loginlink'>Login</a>		</div>
+	</td>
+	</tr>
+
+	<tr>
+	<td colspan="3" class="redbartd">
+		<div class="redbar"><img src="images/reddot.png" class="dot"/></div>
+<div class="btts"><a href='?buttondisplay=first'><img src='images/left.png' id='left' alt='previous' title='previous' class='slidebutton'></a>
+
+<a href='?link=yes&coursechoice=10&series=lwt10'>
+	<img src='images/en/button1a.png' id='button1' title='Site Guide' alt='Site Guide' class='barbuttons'/></a>
+<a href='?link=yes&coursechoice=8&series=lwt11'>
+	<img src='images/en/button2a.png' title='Computers and their parts' alt='Computers and their parts' id='button2' class='barbuttons'/></a>
+<a href='?link=yes&coursechoice=9&series=lwt12'>
+	<img src='images/en/button3a.png' id='button3' title='Knowing the Desktop' alt='Knowing the Desktop' class='barbuttons'/></a>
+<a href='?link=yes&coursechoice=12&series=lwt21'>
+	<img src='images/en/button4a.png' id='button4' title='Internet Basics' alt='Internet Basics' class='barbuttons'/></a>
+ <a href='?link=yes&coursechoice=18&series=lwt22'>
+	<img src='images/en/button5a.png' id='button5' title='Email Basics' alt='Email Basics' class='barbuttons'/></a>
+ <a href='?link=yes&coursechoice=22&series=lwt23'>
+	<img src='images/en/button6a.png' id='button6' title='Software Applications' alt='Software Applications' class='barbuttons'/></a>
+<a href='?link=yes&coursechoice=110&series=lwt3%5B012%5D'>
+	<img src='images/en/button7a.png' id='button7' title='Merging onto the Internet Highway' alt='Merging onto the Internet Highway' class='barbuttons'/></a>
+<a href='?link=yes&coursechoice=113&series=lwt33'>
+	<img src='images/en/button8a.png' id='button8' title='E-Commerece' alt='E-Commerece' class='barbuttons'/></a>
+
+<a href='?bd=mid'><img src='images/right.png' id='right' alt='next' title='next' class='slidebutton'></a></div>
+	<div class="redbar"><img src="images/reddot.png" class="dot"/></div>
+
+	</td>
+	</tr>
+
+
+	</table>
+
+</td>
+</tr>
+<!--- start of 2nd row. First cell on the left is the start of the left side menu -->
+
+<tr>
+<td  class="leftsidebar">
+<div id="leftcontent">
+<div class="leftblock">
+<h3>Getting started</h3>
+<a href="http://www.youtube.com/watch?v=SJB72Zf8-zQ&feature=youtu.be" 
+target="_blank">Video: How to use this site</a>
+<div>
+<p>You have two options to access lessons in this website:
+Register as a Regular User for a personal login and taking quizzes. <i><b>This is recommended</b></i>, but you must have a working email address. To register, click "Login" at the upper-right corner of this page and follow the directions.</p>
+<p><b>
+OR</b></p>
+<p>
+Click on one of the numbered buttons above to begin learning as a <i>Guest User</i>. However, there is more to this website including taking quizzes that are designed to enhance your learning experience.</p>
+</div>
+
+<h3>Primeros pasos</h3>
+
+<div>
+<p>
+Hay dos opciones para acceder al contenido de este sitio web. Primera opción: se puede registrar como Usuario Regular el cual establece un nombre de usuario y la opción de tomar pruebas.  <b>Se recomienda tomar esta opción,</b> pero es necesario tener una dirección de correo electrónico (email) válida. Para registrarse, haz clic sobre la palabra “Login” encontrada en la esquina superior a la derecha de esta página y siga las instrucciones.</p>
+<b>
+O
+</b>
+<p>Segunda opción: Haz clic sobre cualquier de los botones numerados que se encuentran en la parte superior de la pantalla para entrar al sitio como Usuario Visitante.  Sepa que esta opción es limitada porque no le deja acceder a otros beneficios, como las pruebas, que podrán aumentar su aprendizaje.</p>
+</div>
+
+</div>
+
+</div>
+</td>
+<td id="pos1">
+<div id="bar">
+<h1>
+Welcome to Living with Technology!</h1>
+<p>Learn to use computers and the Internet with easy-to-understand lessons that are free to everyone!</p>
+	<div id="ifr">
+	<iframe width="480" height="360" 
+	  src="https://www.youtube.com/embed/Y-CabTRCvkE?rel=0&wmode=transparent" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+<img src="images/red.png" id="red" alt="red divider bar"/>
+
+	<p>The Foundation for California Community Colleges is proud to announce California 
+	Connects, a new program that will increase digital literacy and expand broadband 
+	Internet access to underserved populations throughout the state. The program is 
+	funded by a $10.9 million grant from the U.S. Department of Commerce's National
+	Telecommunications and Information Administration for Broadband Technology 
+	Opportunities Program (BTOP).</p>
+
+</div>
+
+</td>
+</tr>
+
+
+
+
+
+
+
+
+</table>
+</body>
+</html>
+
+
+
+
+
+
+
+
