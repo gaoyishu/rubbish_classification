@@ -1,6 +1,6 @@
-##AI夏令营垃圾分类
+## AI夏令营垃圾分类
 
-该文件夹是AI夏令营垃圾分类的项目文件。
+*该文件夹是AI夏令营垃圾分类的项目文件。
 
 
 This doc contains the files on rubbish classification. 
